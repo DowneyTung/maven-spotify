@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.spotify]">
+  <test name="CreateNewPlaylistTest(failed)">
+    <classes>
+      <class name="com.spotify.ValidLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.ValidLoginTest -->
+      <class name="com.spotify.CreateNewPlaylistTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="CreateNewPlaylist"/>
+        </methods>
+      </class> <!-- com.spotify.CreateNewPlaylistTest -->
+      <class name="com.spotify.PlayTrackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.PlayTrackTest -->
+      <class name="com.spotify.InvalidLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.InvalidLoginTest -->
+      <class name="com.spotify.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.SearchTest -->
+    </classes>
+  </test> <!-- CreateNewPlaylistTest(failed) -->
+  <test name="SearchTest(failed)">
+    <classes>
+      <class name="com.spotify.ValidLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.ValidLoginTest -->
+      <class name="com.spotify.CreateNewPlaylistTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.spotify.CreateNewPlaylistTest -->
+      <class name="com.spotify.PlayTrackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.PlayTrackTest -->
+      <class name="com.spotify.InvalidLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.InvalidLoginTest -->
+      <class name="com.spotify.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- com.spotify.SearchTest -->
+    </classes>
+  </test> <!-- SearchTest(failed) -->
+  <test name="validLoginTest(failed)">
+    <classes>
+      <class name="com.spotify.ValidLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validLogin"/>
+        </methods>
+      </class> <!-- com.spotify.ValidLoginTest -->
+      <class name="com.spotify.CreateNewPlaylistTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.spotify.CreateNewPlaylistTest -->
+      <class name="com.spotify.PlayTrackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.PlayTrackTest -->
+      <class name="com.spotify.InvalidLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.InvalidLoginTest -->
+      <class name="com.spotify.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.spotify.SearchTest -->
+    </classes>
+  </test> <!-- validLoginTest(failed) -->
+</suite> <!-- Failed suite [com.spotify] -->

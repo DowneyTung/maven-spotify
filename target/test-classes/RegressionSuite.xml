@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="com.spotify">
+   <tests>
+      <test name="CreateNewPlaylistTest">
+         <classes>
+            <class name="com.spotify.CreateNewPlaylistTest" />
+         </classes>
+      </test>
+      <test name="InvalidLoginTest">
+         <classes>
+            <class name="com.spotify.InvalidLoginTest" />
+         </classes>
+      </test>
+      <test name="PlayTrackTest">
+         <classes>
+            <class name="com.spotify.PlayTrackTest" />
+         </classes>
+      </test>
+      <test name="SearchTest">
+         <classes>
+            <class name="com.spotify.SearchTest" />
+         </classes>
+      </test>
+      <test name="validLoginTest">
+         <classes>
+            <class name="com.spotify.ValidLoginTest" />
+         </classes>
+      </test>
+   </tests>
+</suite>

@@ -1,0 +1,5 @@
+com/spotify/CreateNewPlaylistTest.class
+com/spotify/PlayTrackTest.class
+com/spotify/SearchTest.class
+com/spotify/ValidLoginTest.class
+com/spotify/InvalidLoginTest.class

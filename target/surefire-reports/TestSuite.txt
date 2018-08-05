@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 62.522 s <<< FAILURE! - in TestSuite
+CreateNewPlaylist(com.spotify.CreateNewPlaylistTest)  Time elapsed: 10.361 s  <<< FAILURE!
+org.sikuli.script.FindFailed: /Users/yidong/Dropbox/iHeartMedia/Selenium/maven-spotify/src/test/java/assets_spotify.sikuli/password_field.png: (332x27) in S(0)[0,0 1280x800] E:Y, T:3.0
+	at com.spotify.CreateNewPlaylistTest.CreateNewPlaylist(CreateNewPlaylistTest.java:42)
+
+searchTest(com.spotify.SearchTest)  Time elapsed: 10.836 s  <<< FAILURE!
+org.sikuli.script.FindFailed: /Users/yidong/Dropbox/iHeartMedia/Selenium/maven-spotify/src/test/java/assets_spotify.sikuli/password_field.png: (332x27) seen at (500, 328) with 1.00 in S(0)[0,0 1280x800] E:Y, T:3.0
+	at com.spotify.SearchTest.searchTest(SearchTest.java:50)
+
+validLogin(com.spotify.ValidLoginTest)  Time elapsed: 10.115 s  <<< FAILURE!
+org.sikuli.script.FindFailed: /Users/yidong/Dropbox/iHeartMedia/Selenium/maven-spotify/src/test/java/assets_spotify.sikuli/password_field.png: (332x27) seen at (500, 328) with 1.00 in S(0)[0,0 1280x800] E:Y, T:3.0
+	at com.spotify.ValidLoginTest.validLogin(ValidLoginTest.java:49)
+
